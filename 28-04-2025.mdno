@@ -1,0 +1,49 @@
+Escriba el algoritmo para determinar cuál es el resultado correcto de las siguientes operaciones.
+1) Operación: b-a*(a*3-a*c)
+Algoritmo:
+Inicio
+	Real a, b, c, result
+	a = 2
+	b = 3
+	c = 4
+	result = a * 3
+	resultado = resultado - (a * c)
+	resultado = resultado * a
+	resultado = b - resultado
+	Escribir resultado
+Fin
+
+2) Operación: d^2/b^2 - (a) * (c)^2
+Inicio
+
+
+ Fin
+
+ Algoritmo xdd
+	Definir horas_habil, horas_nhabil, paga_mensual Como Real
+	Definir horas_habil_totales, horas_nhabil_totales, horas_proyecto, precio_uf Como Real
+	horas_proyecto = 560
+	horas_habil_totales = 6* 20
+	horas_nhabil_totales = 6 * 8
+	
+	precio_uf = 39.062
+	
+	Escribir "Ingrese las horas hábiles que trabajó durante el mes(28 días)"
+	Leer horas_habil
+	si horas_habil > horas_habil_totales Entonces
+		horas_habil = horas_habil_totalesfin
+	FinSi
+	
+	Escribir "Ingrese las horas no hábiles que trabajó durante el mes(28 días)"
+	Leer horas_nhabil
+	si horas_nhabil > horas_nhabil_totales Entonces
+		horas_nhabil = horas_nhabil_totalesfin
+	FinSi
+	
+	paga_mensual = (precio_uf * horas_habil) + ((precio_uf * 1.5)*horas_nhabil)
+	Escribir "Su sueldo del mes es $", paga_mensual
+FinAlgoritmo
+
+
+
+
