@@ -1,0 +1,11 @@
+Escriba el algoritmo para determinar cuál es el resultado correcto de las siguientes operaciones.
+
+Inicio
+	Real a, b, c, result
+	a = 2
+	b = 3
+	c = 4
+	result = b-a*(a*3-a*c)
+	Escribir result
+Fin
+
